@@ -2,7 +2,7 @@ import { X, Minus, Plus, ShoppingCart } from "lucide-react";
 import { useCart } from "~/context/CartContext";
 import formatPrice from "~/utils/formatPrice";
 import { Fragment, useEffect } from "react";
-import { Link } from "@remix-run/react";
+import { Link } from "react-router";
 import { Transition, Dialog } from "@headlessui/react";
 import { useHydrated } from "remix-utils/use-hydrated";
 

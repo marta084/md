@@ -1,5 +1,5 @@
 import { Menu, ShoppingCart, X, Armchair, Table2, CircleDot, BookmarkPlus, Sofa, Package, Phone } from "lucide-react";
-import { Link } from "@remix-run/react";
+import { Link } from "react-router";
 import { useEffect, useState } from "react";
 import { CartSidebar } from "./CartSidebar";
 import { useCart } from "~/context/CartContext";

@@ -1,6 +1,6 @@
 import { useState, useCallback, useRef, useEffect } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
-import { useLocation } from "@remix-run/react";
+import { useLocation } from "react-router";
 import * as Dialog from "@radix-ui/react-dialog";
 import { useHydrated } from "remix-utils/use-hydrated";
 import { createPortal } from "react-dom";
